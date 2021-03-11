@@ -1,0 +1,15 @@
+Creating a Database in MySQL Database
+-------------------------------------
+create database NJC_demo;
+
+Creating a table user_info in database NJC_demo
+-----------------------------------------------
+create table user_info(id int(5) primary key, name varchar(25), age int(5), email varchar(25), username varchar(15));
+
+Inserting record to user_info table
+-----------------------------------
+insert into user_info values(1, 'Sreenath G', 25, 'sreenathxyz@xyz.com', 'sree');
+
+Retrieving record from user_info table
+--------------------------------------
+select * from user_info where id=1;
